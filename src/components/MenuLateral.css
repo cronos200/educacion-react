@@ -1,0 +1,39 @@
+/* Estilo para el sidebar */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+  position: fixed;
+}
+
+/* Estilo del encabezado Home */
+.sidebar-header {
+  margin-bottom: 30px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Estilo de los botones del menú lateral */
+.sidebar-btn {
+  width: 80%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid black;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover de los botones */
+.sidebar-btn:hover {
+  background-color: #f0f0f0;
+}
